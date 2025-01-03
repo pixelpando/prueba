@@ -1,0 +1,26 @@
+[
+    {
+        "value": "Loma Negra",
+        "nombre": "Cemento Portland Loma Negra",
+        "peso": 50,
+        "precio": 8450
+    },
+    {
+        "value": "Avellaneda",
+        "nombre": "Cementos Avellaneda Portland",
+        "peso": 50,
+        "precio": 8450
+    },
+    {
+        "value": "Holcim",
+        "nombre": "Cemento Holcim",
+        "peso": 50,
+        "precio": 8450
+    },
+    {
+        "value": "PCR",
+        "nombre": "Cemento PCR",
+        "peso": 50,
+        "precio": 8450
+    }
+]

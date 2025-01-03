@@ -3,13 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- CSS-->
+    <link rel="stylesheet" href="../css/style.css">
     <!-- JS -->
-    <script defer src="./js/main.js"></script>
-    <title>Prueba de entrega v0.2</title>
+    <script src="https://kit.fontawesome.com/12711a9fbb.js" crossorigin="anonymous"></script>
+    <script defer src="../js/main.js"></script>
+    <title>Calculadora de Materiales | Pablo Pandolfi</title>
 </head>
 <body>
-    <h1>Prueba de entrega v0.2</h1>
-    <p>Esta es una descripción del proyecto</p>    
+    <header>
+        <!-- Texto Header desde JS -->
+    </header>
+    <nav>
+        <div class="titulo">
+            <h1>Calculadora de Materiales</h1>
+            <p>Calcula la cantidad de ladrillos y cemento según las dimensiones de las paredes a construir</p>
+        </div>
+        <div class="carrito-icon">
+            <a href="carrito.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+    </nav>
+
+    <div class="mensaje" id="msg">
+        <!-- Carga mensaje desde JS -->
+    </div>
+
+    <div class="contenedor">
+
+        <section class="lista-ladrillos">
+            <h2>Elegí el tipo de ladrillo</h2>
+            <div class="grilla-productos">
+
+                <!-- <span class="mensaje error" id="msgErrorProductos"></span> -->
+                
+                <section class="productos" id="products-container">
+                    <!-- Carga los productos desde JS + JSON -->
+                </section>
+
+                <section class="inputs">
+                    <h3>Ingrese las medidas de las paredes:</h3>
+                    <span>Longitud</span>
+                    <input value="" type="number" id="inputLongitud" placeholder="Ej.: 5.6" step="0.1" min="1" max="9999" required> mts.
+                    <span>Altura</span>
+                    <input value="" type="number" id="inputAltura" placeholder="Ej.: 2.3" step="0.1" min="1" max="9999" required> mts.
+                </section>
+        
+                <section class="cementos">
+                    <h3>Elegí la marca del cemento:</h3>
+                    <select name="cementos" id="marcas-cemento" required>
+                        <!-- Carga las marcas de cemento con JS + JSON -->
+                    </select>
+                </section>
+
+                <div id="analisis-resultado" class="">
+                </div>
+                <section id="resultado">
+                    <!-- Calcula el resultado -->
+                </section>
+
+                <section class="calcular">
+                    <div class="btn-calcular">
+                        <button id="botonCalcular">Calcular</button>
+                        <button id="botonReset">Reset</button>
+                    </div>
+                </section>
+
+            </div> 
+        </section>
+
+    </div>
+    <!-- Footer desde JS -->
+
 </body>
 </html>

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ladrillo Común 5x13x25",
+        "precio": 112,
+        "imagen": "./images/1-ladrillo-comun-5x13x25.jpg",
+        "alto": 0.05,
+        "ancho": 0.13,
+        "largo": 0.25
+    },
+    {
+        "id": 2,
+        "nombre": "Ladrillo Hueco 6A 8x18x33",
+        "precio": 356,
+        "imagen": "./images/2-ladrillo-hueco-6a-8x18x33.jpg",
+        "alto": 0.08,
+        "ancho": 0.18,
+        "largo": 0.33
+    },
+    {
+        "id": 3,
+        "nombre": "Ladrillo Hueco 6A 12x18x33",
+        "precio": 446,
+        "imagen": "./images/3-ladrillo-hueco-6a-12x18x33.jpg",
+        "alto": 0.12,
+        "ancho": 0.18,
+        "largo": 0.33
+    },
+    {
+        "id": 4,
+        "nombre": "Ladrillo Hueco 9A 12x18x33",
+        "precio": 451,
+        "imagen": "./images/4-ladrillo-hueco-9a-12x18x33.jpg",
+        "alto": 0.12,
+        "ancho": 0.18,
+        "largo": 0.33
+    },
+    {
+        "id": 5,
+        "nombre": "Ladrillo Hueco 9A 18x18x33",
+        "precio": 685,
+        "imagen": "./images/5-ladrillo-hueco-9a-18x18x33.jpg",
+        "alto": 0.18,
+        "ancho": 0.18,
+        "largo": 0.33
+    },
+    {
+        "id": 6,
+        "nombre": "Ladrillo Portante 18x19x33",
+        "precio": 819,
+        "imagen": "./images/6-ladrillo-portante-18x19x33.jpg",
+        "alto": 0.18,
+        "ancho": 0.19,
+        "largo": 0.33
+    },
+    {
+        "id": 7,
+        "nombre": "Ladrillo Retak 10x25x50",
+        "precio": 2882,
+        "imagen": "./images/7-ladrillo-retak-10x25x50.jpg",
+        "alto": 0.10,
+        "ancho": 0.25,
+        "largo": 0.50,
+        "checked": "checked"
+    }
+]
